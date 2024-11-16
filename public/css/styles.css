@@ -1,0 +1,189 @@
+body{
+    background-color: #F2F2F3;
+}
+
+h1, h2 ,h3, h4 ,h5{
+    font-family: 'Comic Neue', cursive;
+}
+
+h3{
+    font-size: 1.5rem;
+}
+
+.titleColorBg{
+    background-color: #DE3F40;
+    color: #F2F2F3;
+    padding-left: 0.5rem;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+}
+
+p, a, ul, li{
+    color: #2F2F2E !important;
+}
+
+li{
+    list-style-type: none;
+}
+
+.navBackgroundColor{
+    background-color: #ECEDED;
+}
+
+
+.comicFont{
+    font-family: 'Comic Neue', cursive;
+}
+
+.boton1{
+    background-color: #25169b !important;
+    color: #F2F2F3 !important; 
+    transition: 0.5s;
+    font-family: 'Comic Neue', cursive;
+}
+
+.boton1:hover{
+    background-color: #c7c0dc !important;
+}
+
+.boton2{
+    background-color: #B33B3C !important;
+    color: #F2F2F3 !important; 
+    transition: 0.5s;
+    font-family: 'Comic Neue', cursive;
+}
+
+.boton2:hover{
+    background-color: #dcc0c0 !important;
+}
+
+@media only screen and (min-width: 992px) {
+    
+    .desktopNavbarSize{
+        max-width: 200px !important;
+        height: 100% !important ;
+    }
+
+    .content{
+        margin-left: 200px;
+    }
+
+}
+
+.footer{
+    height: 100px;
+}
+
+
+.notificationModal {
+    background-color: rgb(231, 244, 255);
+    border: 1px solid #121212;
+    border-radius: 20px;
+    /*
+        position: fixed;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        animation-name: fadeAwayAnimation;
+        animation-duration: 5s;
+        animation-iteration-count: 1;
+        animation-fill-mode:forwards;
+        width: 320px;
+
+    */
+    padding: 20px;
+
+    box-shadow: 0px 0px 10px;
+    text-align: center;
+   
+    z-index: 5;
+
+}
+  /*
+@keyframes fadeAwayAnimation {
+    from {
+        opacity: 1;
+    }
+    to {
+        display: none;
+        opacity: 0;
+    }
+}
+*/
+.formAlertNotification{
+    background-color: rgb(255, 212, 212);
+}
+
+
+.customCard{
+    width: 18rem !important;
+    border: none;
+}
+
+.customCard div{
+    transition: 0.3s;
+}
+
+.customCard a{
+    text-decoration: none !important;
+}
+
+.customCard div:hover{
+    transform: scale(1.01); 
+}
+
+.topVentas{
+    width: 18rem !important;
+}
+
+
+.card-body{
+    background-color: #F2F2F3;
+}
+
+.card-body p{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.customCardNoticia{
+    padding: 0;
+}
+
+.customCardNoticia a {
+    text-decoration: none !important;
+    transition: 0.5s;
+}
+
+.customCardNoticia a:hover{
+    transform: scale(1.01); 
+}
+
+.noticiaCardText p{
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3; 
+}
+
+.customLink{
+    color: #25169b !important;
+}
+
+.customLink:hover{
+    color: #DE3F40 !important;
+}
+
+.imgLoSentimos{
+    width: 100px !important;
+}
+
+.carritoInput{
+    max-width: 75px;
+}
+
+.date-text {
+    font-style: italic;
+    font-weight: bold;
+}
